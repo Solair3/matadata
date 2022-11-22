@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ns3:EntityDescriptor
+    xmlns:ns3="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:ns2="http://www.w3.org/2001/04/xmlenc#"
+    xmlns:ns4="urn:oasis:names:tc:SAML:2.0:assertion"
+    ID="S1b6bfaf4-5d2d-4de6-87e9-75fc23388652"
+    entityID="https://ajqfqvsv2.accounts.ondemand.com"
+>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <ds:Reference URI="#S1b6bfaf4-5d2d-4de6-87e9-75fc23388652">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <ds:DigestValue>Hh9Am3ZqD9Chwdib2uy+BOtOccA/N2iJsJBGnnysnDQ=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            clHtoTtNRjzQfMbk/TeVoCY5eHRIBL9SzGhMB7SouHn5x0RZejNFassFwbDxp259PHp0ztAH9Jh49g34e/DGtvZsE9dSfgGzRFd0GNFtBzJ/bDqbJnOAJKqL8G6wfmDW1hzy5NeBsd5lWklQNSXGi+CT7v3Fisyz0Py4kNewTsL1AvcVRb7qho1gfgEPdUawR98mRN3PL9EK6N5SYmjQt3xODYJbeXNmLU5OTOiUQv2/hGa93i9Ii11PebZms4zXteo7QZLDGjlP+lRVhjPTu9sDCMwn3kwBfnuHxIdpIyp4G20fFNmUmDP3iSxofiOOAlvoGXs6kAeEGAPn0ea9TA==
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIDEjCCAfqgAwIBAQIGAXbRQQXUMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FqcWZxdnN2Mi5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwMTA1MDYzNDI4WhcNMzEwMTA1MDYzNDI4WjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hanFmcXZzdjIuYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpR8k6W2q9pb2jPMsKjpkd1C/xIPS+llBKm+8x0z2W9MeolVCmfOOL7HiEbP9vRGugRh5LuG5OMJM/7pnknN7fK2HmC+WNhtjQ+Zh1X3WfVqhw8eWzBhyqrsUHnwWqbapxBC4fbibgWhsxaQKoYzB/Mp9BpMdaBkd54PutzL4HxWszCN27lsAlU806sqfl3gCW7Ivt7XITcPIdhc9CGzoWyjK2b6vNrY62AVRtpUHdWGNOeMS0ifPZjPFy5AnGlQyueBQXLAsSuHAWy1UtzRxeOPDKApyu6XByf/Me88gfHWYeyQij25BgWEwUMRlVXxVRCnrYNtkKqUyZe27MUf3QIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEABIwPXqKImwe/+Y38MgB/g0JE8hO6AU1bYuTBaABRNZlXsjeO9aZU/K4yffw0OcmGLwrig5//ZfWEmrCFVoSavEryhFqU8zbxJSpAxh9+UArvhmbb8ei8kudUKzxec1TriumvGMjIOCPDG6WW3SrG9ikefUOfWEN9Jo3xDzzWTdQ6ORHcfk+y/OvJEqcuBISqyOOx+3G/LPRphSHk2tvmuGouwLjs6l8/R0OKYKZ9xjwlkP5IVhAiGFYmernUJzUWb4yEFAfolGMYodWvq/4+5ZjI+H0HyPuh4JUVJwruG5+7e5krSEVXA6yydmfafxeYWq+C1Rg3iZ3SrV8lA9hCHQ==
+                </ds:X509Certificate>
+            </ds:X509Data>
+            <ds:KeyValue>
+                <ds:RSAKeyValue>
+                    <ds:Modulus>
+                        vpR8k6W2q9pb2jPMsKjpkd1C/xIPS+llBKm+8x0z2W9MeolVCmfOOL7HiEbP9vRGugRh5LuG5OMJM/7pnknN7fK2HmC+WNhtjQ+Zh1X3WfVqhw8eWzBhyqrsUHnwWqbapxBC4fbibgWhsxaQKoYzB/Mp9BpMdaBkd54PutzL4HxWszCN27lsAlU806sqfl3gCW7Ivt7XITcPIdhc9CGzoWyjK2b6vNrY62AVRtpUHdWGNOeMS0ifPZjPFy5AnGlQyueBQXLAsSuHAWy1UtzRxeOPDKApyu6XByf/Me88gfHWYeyQij25BgWEwUMRlVXxVRCnrYNtkKqUyZe27MUf3Q==
+                    </ds:Modulus>
+                    <ds:Exponent>AQAB</ds:Exponent>
+                </ds:RSAKeyValue>
+            </ds:KeyValue>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <ns3:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <ns3:KeyDescriptor use="signing">
+            <KeyInfo>
+                <KeyName>https://ajqfqvsv2.accounts.ondemand.com</KeyName>
+                <X509Data>
+                    <X509Certificate>
+                        MIIDEjCCAfqgAwIBAQIGAXbRQQXUMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FqcWZxdnN2Mi5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwMTA1MDYzNDI4WhcNMzEwMTA1MDYzNDI4WjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hanFmcXZzdjIuYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpR8k6W2q9pb2jPMsKjpkd1C/xIPS+llBKm+8x0z2W9MeolVCmfOOL7HiEbP9vRGugRh5LuG5OMJM/7pnknN7fK2HmC+WNhtjQ+Zh1X3WfVqhw8eWzBhyqrsUHnwWqbapxBC4fbibgWhsxaQKoYzB/Mp9BpMdaBkd54PutzL4HxWszCN27lsAlU806sqfl3gCW7Ivt7XITcPIdhc9CGzoWyjK2b6vNrY62AVRtpUHdWGNOeMS0ifPZjPFy5AnGlQyueBQXLAsSuHAWy1UtzRxeOPDKApyu6XByf/Me88gfHWYeyQij25BgWEwUMRlVXxVRCnrYNtkKqUyZe27MUf3QIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEABIwPXqKImwe/+Y38MgB/g0JE8hO6AU1bYuTBaABRNZlXsjeO9aZU/K4yffw0OcmGLwrig5//ZfWEmrCFVoSavEryhFqU8zbxJSpAxh9+UArvhmbb8ei8kudUKzxec1TriumvGMjIOCPDG6WW3SrG9ikefUOfWEN9Jo3xDzzWTdQ6ORHcfk+y/OvJEqcuBISqyOOx+3G/LPRphSHk2tvmuGouwLjs6l8/R0OKYKZ9xjwlkP5IVhAiGFYmernUJzUWb4yEFAfolGMYodWvq/4+5ZjI+H0HyPuh4JUVJwruG5+7e5krSEVXA6yydmfafxeYWq+C1Rg3iZ3SrV8lA9hCHQ==
+                    </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </ns3:KeyDescriptor>
+        <ns3:KeyDescriptor use="encryption">
+            <KeyInfo>
+                <KeyName>https://ajqfqvsv2.accounts.ondemand.com</KeyName>
+                <X509Data>
+                    <X509Certificate>
+                        MIIDEjCCAfqgAwIBAQIGAXbRQQXUMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FqcWZxdnN2Mi5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwMTA1MDYzNDI4WhcNMzEwMTA1MDYzNDI4WjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hanFmcXZzdjIuYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpR8k6W2q9pb2jPMsKjpkd1C/xIPS+llBKm+8x0z2W9MeolVCmfOOL7HiEbP9vRGugRh5LuG5OMJM/7pnknN7fK2HmC+WNhtjQ+Zh1X3WfVqhw8eWzBhyqrsUHnwWqbapxBC4fbibgWhsxaQKoYzB/Mp9BpMdaBkd54PutzL4HxWszCN27lsAlU806sqfl3gCW7Ivt7XITcPIdhc9CGzoWyjK2b6vNrY62AVRtpUHdWGNOeMS0ifPZjPFy5AnGlQyueBQXLAsSuHAWy1UtzRxeOPDKApyu6XByf/Me88gfHWYeyQij25BgWEwUMRlVXxVRCnrYNtkKqUyZe27MUf3QIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEABIwPXqKImwe/+Y38MgB/g0JE8hO6AU1bYuTBaABRNZlXsjeO9aZU/K4yffw0OcmGLwrig5//ZfWEmrCFVoSavEryhFqU8zbxJSpAxh9+UArvhmbb8ei8kudUKzxec1TriumvGMjIOCPDG6WW3SrG9ikefUOfWEN9Jo3xDzzWTdQ6ORHcfk+y/OvJEqcuBISqyOOx+3G/LPRphSHk2tvmuGouwLjs6l8/R0OKYKZ9xjwlkP5IVhAiGFYmernUJzUWb4yEFAfolGMYodWvq/4+5ZjI+H0HyPuh4JUVJwruG5+7e5krSEVXA6yydmfafxeYWq+C1Rg3iZ3SrV8lA9hCHQ==
+                    </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </ns3:KeyDescriptor>
+        <ns3:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ajqfqvsv2.accounts.ondemand.com/saml2/idp/slo/ajqfqvsv2.accounts.ondemand.com" />
+        <ns3:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ajqfqvsv2.accounts.ondemand.com/saml2/idp/slo/ajqfqvsv2.accounts.ondemand.com" />
+        <ns3:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ajqfqvsv2.accounts.ondemand.com/saml2/idp/sso/ajqfqvsv2.accounts.ondemand.com" />
+        <ns3:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ajqfqvsv2.accounts.ondemand.com/saml2/idp/sso/ajqfqvsv2.accounts.ondemand.com" />
+    </ns3:IDPSSODescriptor>
+    <ns3:SPSSODescriptor AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <ns3:KeyDescriptor use="signing">
+            <KeyInfo>
+                <KeyName>https://ajqfqvsv2.accounts.ondemand.com</KeyName>
+                <X509Data>
+                    <X509Certificate>
+                        MIIDEjCCAfqgAwIBAQIGAXbRQQXUMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FqcWZxdnN2Mi5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwMTA1MDYzNDI4WhcNMzEwMTA1MDYzNDI4WjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hanFmcXZzdjIuYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpR8k6W2q9pb2jPMsKjpkd1C/xIPS+llBKm+8x0z2W9MeolVCmfOOL7HiEbP9vRGugRh5LuG5OMJM/7pnknN7fK2HmC+WNhtjQ+Zh1X3WfVqhw8eWzBhyqrsUHnwWqbapxBC4fbibgWhsxaQKoYzB/Mp9BpMdaBkd54PutzL4HxWszCN27lsAlU806sqfl3gCW7Ivt7XITcPIdhc9CGzoWyjK2b6vNrY62AVRtpUHdWGNOeMS0ifPZjPFy5AnGlQyueBQXLAsSuHAWy1UtzRxeOPDKApyu6XByf/Me88gfHWYeyQij25BgWEwUMRlVXxVRCnrYNtkKqUyZe27MUf3QIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEABIwPXqKImwe/+Y38MgB/g0JE8hO6AU1bYuTBaABRNZlXsjeO9aZU/K4yffw0OcmGLwrig5//ZfWEmrCFVoSavEryhFqU8zbxJSpAxh9+UArvhmbb8ei8kudUKzxec1TriumvGMjIOCPDG6WW3SrG9ikefUOfWEN9Jo3xDzzWTdQ6ORHcfk+y/OvJEqcuBISqyOOx+3G/LPRphSHk2tvmuGouwLjs6l8/R0OKYKZ9xjwlkP5IVhAiGFYmernUJzUWb4yEFAfolGMYodWvq/4+5ZjI+H0HyPuh4JUVJwruG5+7e5krSEVXA6yydmfafxeYWq+C1Rg3iZ3SrV8lA9hCHQ==
+                    </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </ns3:KeyDescriptor>
+        <ns3:KeyDescriptor use="encryption">
+            <KeyInfo>
+                <KeyName>https://ajqfqvsv2.accounts.ondemand.com</KeyName>
+                <X509Data>
+                    <X509Certificate>
+                        MIIDEjCCAfqgAwIBAQIGAXbRQQXUMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FqcWZxdnN2Mi5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwMTA1MDYzNDI4WhcNMzEwMTA1MDYzNDI4WjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hanFmcXZzdjIuYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpR8k6W2q9pb2jPMsKjpkd1C/xIPS+llBKm+8x0z2W9MeolVCmfOOL7HiEbP9vRGugRh5LuG5OMJM/7pnknN7fK2HmC+WNhtjQ+Zh1X3WfVqhw8eWzBhyqrsUHnwWqbapxBC4fbibgWhsxaQKoYzB/Mp9BpMdaBkd54PutzL4HxWszCN27lsAlU806sqfl3gCW7Ivt7XITcPIdhc9CGzoWyjK2b6vNrY62AVRtpUHdWGNOeMS0ifPZjPFy5AnGlQyueBQXLAsSuHAWy1UtzRxeOPDKApyu6XByf/Me88gfHWYeyQij25BgWEwUMRlVXxVRCnrYNtkKqUyZe27MUf3QIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEABIwPXqKImwe/+Y38MgB/g0JE8hO6AU1bYuTBaABRNZlXsjeO9aZU/K4yffw0OcmGLwrig5//ZfWEmrCFVoSavEryhFqU8zbxJSpAxh9+UArvhmbb8ei8kudUKzxec1TriumvGMjIOCPDG6WW3SrG9ikefUOfWEN9Jo3xDzzWTdQ6ORHcfk+y/OvJEqcuBISqyOOx+3G/LPRphSHk2tvmuGouwLjs6l8/R0OKYKZ9xjwlkP5IVhAiGFYmernUJzUWb4yEFAfolGMYodWvq/4+5ZjI+H0HyPuh4JUVJwruG5+7e5krSEVXA6yydmfafxeYWq+C1Rg3iZ3SrV8lA9hCHQ==
+                    </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </ns3:KeyDescriptor>
+        <ns3:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ajqfqvsv2.accounts.ondemand.com/saml2/idp/slo/ajqfqvsv2.accounts.ondemand.com" />
+        <ns3:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ajqfqvsv2.accounts.ondemand.com/saml2/idp/slo/ajqfqvsv2.accounts.ondemand.com" />
+        <ns3:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ajqfqvsv2.accounts.ondemand.com/saml2/idp/acs/ajqfqvsv2.accounts.ondemand.com" index="0" isDefault="true" />
+    </ns3:SPSSODescriptor>
+</ns3:EntityDescriptor>
